@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-    " Displays all buffers
+    " Status/Tabline
     Plug 'vim-airline/vim-airline'
 call plug#end()
