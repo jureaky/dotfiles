@@ -20,3 +20,6 @@ set softtabstop=4                           " Number of spaces per Tab: 4
 set noshowmode                              " Hide things like -- INSERT --
 set ignorecase                              " Always case-insensitive
 set hlsearch                                " Hightlight all search results
+
+" Stop newline continuation of comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
