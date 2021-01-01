@@ -5,4 +5,7 @@ call plug#begin('~/.vim/plugged')
 
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+    " Theme
+    Plug 'joshdick/onedark.vim'
 call plug#end()
