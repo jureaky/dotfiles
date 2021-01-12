@@ -20,6 +20,11 @@ set softtabstop=4                           " Number of spaces per Tab: 4
 set noshowmode                              " Hide things like -- INSERT --
 set ignorecase                              " Always case-insensitive
 set hlsearch                                " Hightlight all search results
+set clipboard+=unnamedplus                  " Use system clipboard
+set splitbelow splitright                   " Fix splitting
 
 " Stop newline continuation of comments
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Vertically center document when entering insert mode
+autocmd InsertEnter * norm zz
