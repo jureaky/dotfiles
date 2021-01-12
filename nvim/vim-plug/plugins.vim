@@ -11,4 +11,7 @@ call plug#begin('~/.vim/plugged')
 
     " Vim-Surround
     Plug 'tpope/vim-surround'
+
+    " Emmet
+    Plug 'mattn/emmet-vim'
 call plug#end()
