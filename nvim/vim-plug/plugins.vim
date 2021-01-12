@@ -8,4 +8,7 @@ call plug#begin('~/.vim/plugged')
 
     " Theme
     Plug 'joshdick/onedark.vim'
+
+    " Vim-Surround
+    Plug 'tpope/vim-surround'
 call plug#end()
