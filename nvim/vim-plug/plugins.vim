@@ -14,4 +14,9 @@ call plug#begin('~/.vim/plugged')
 
     " Emmet
     Plug 'mattn/emmet-vim'
+
+    " FZF
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+    Plug 'airblade/vim-rooter'
 call plug#end()
